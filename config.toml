@@ -1,0 +1,38 @@
+baseURL = "https://example.pages.sandbox.intellij.net/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-theme-bootstrap4-blog"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+  page = "/:slug/"
+
+[[menu.sidebar]]
+  name = "Link 1"
+  url = "https://example.com"
+
+[[menu.sidebar]]
+  name = "Link 2"
+  url = "https://example.org"
+
+[params]
+  # Site author
+  author = "Your Name"
+
+  # Description/subtitle for homepage (can be Markdown)
+  description = "A simple Hugo theme based on the Bootstrap v4 blog example."
+
+  # Show header (default: true)
+  #header_visible = true
+
+  # Format dates with Go's time formatting
+  date_format = "Mon Jan 02, 2006"
+
+  [params.sidebar]
+    # Optional about block for sidebar (can be Markdown)
+    about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
+  [params.social]
+    # Optional, used for attribution in Twitter cards (ideally not a person
+    # for example: nytimes, flickr, NatGeo, etc).
+    # See: https://dev.twitter.com/cards/types/summary-large-image
+    twitter = "username"
