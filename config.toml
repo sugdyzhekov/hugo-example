@@ -1,4 +1,4 @@
-baseURL = "https://example.pages.sandbox.intellij.net/"
+baseURL = "https://hugo-example-1.pages.sandbox.intellij.net/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-theme-bootstrap4-blog"
